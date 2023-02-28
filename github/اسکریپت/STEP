@@ -1,0 +1,23 @@
+from turtle import*
+speed(1)
+color('red')
+bgcolor("black")
+a =199
+while a > 0:
+	
+	left(a)
+	forward(a )
+	a -= 1
+	speed(10000000000000000)
+
+color("green")
+a =199
+penup()
+goto(100,100)
+pendown()
+while a > 0:
+	
+	left(a)
+	forward(a )
+	a -= 1
+exitonclick()
